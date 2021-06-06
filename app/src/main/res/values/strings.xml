@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tabs</string>
+    <string name="Defensa">Defensa</string>
+    <string name="Portero">Portero</string>
+    <string name="Mediocampista">Mediocampista</string>
+    <string name="Cambios">Cambios</string>
+    <string name="Delantero">Delantero</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragDefensa">Es un jugador que tiene como objetivo principal impedir que los adversarios de los equipos contrarios marquen goles en su portería. Dentro de la defensa hay distintos especialistas dependiendo de su posición</string>
+    <string name="fragPortero">Es la persona encargada de interceptar el esférico con el fin de proteger su portería y evitar el gol.</string>
+    <string name="fragMedioCampista">Se encarga de elaborar y distribuir el juego del equipo, por lo que es una de las posiciones más exigentes e importantes dentro de una formación.</string>
+    <string name="fragCambios">Es la persona encargada de sustuir a un jugador que se encuentra en el area de juego.</string>
+    <string name="fragDelantero">Es un jugador de un equipo de fútbol que se destaca en la posición de ataque, la más cercana a la portería del equipo rival, y es por ello el principal responsable de marcar los goles.</string>
+</resources>

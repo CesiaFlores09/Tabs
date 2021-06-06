@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200">
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabdefensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_on_secondary"
+            android:icon="@drawable/ic_jugador_de_futbol_bloqueando_a_otro_jugador"
+            android:text="Defensa"
+
+            />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabportero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_portero"
+
+            android:text="Portero" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabmediocampista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_bola_de_ajuste_de_jugador_de_futbol"
+            android:text="Medio campista" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabcambios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_sustituir"
+            android:text="Cambios" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabdelantero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_futbolista"
+            android:text="Delantero" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
+
